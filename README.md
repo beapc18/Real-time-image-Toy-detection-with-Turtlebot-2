@@ -1,7 +1,7 @@
 # Toy Detection with Turtlebot 2.
 The **goal** of this project is to **detect a specific toy** among a small group of toys scattered around a room. The robot should observe its environment looking for the correct toy among the bunch, then move towards it correctly and, finally, signal that it has been found. The detection must be carried away by a **Convolutional Neural Network** trained with augmented training data.
 
-Three different neural networks have been training, one for each of the selected toys, following the [Tensorflow Object Detection API Tutorial](https://pythonprogramming.net/introduction-use-tensorflow-object-detection-api-tutorial/) 
+Three different neural networks have been trained, one for each of the selected toys, following the [Tensorflow Object Detection API Tutorial](https://pythonprogramming.net/introduction-use-tensorflow-object-detection-api-tutorial/) 
 
 <p align="center">
 <img src="https://github.com/beapc18/MSC_HumanoidRoboticsLab/blob/master/images/toy_platypus.jpg" width="30%">
@@ -11,7 +11,7 @@ Three different neural networks have been training, one for each of the selected
 
 The robot used in this project is the [TurtleBot 2](https://www.turtlebot.com/turtlebot2/), equipped with two cameras, one located in the middle of the robot facing forward, and the other one located on top of the robot, which is tilted slightly downwards to face the ground in front of the robot. The mobile base has three bumpers to detect impacts.
 
-In the project you can find two modules, whose interactions are the following:
+We developed two modules for our project, which interact as follows:
 <p align="center">
 <img src="https://github.com/beapc18/MSC_HumanoidRoboticsLab/blob/master/images/diagram_with_topics.png" width="80%">
 </p>
