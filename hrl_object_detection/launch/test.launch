@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+
+<launch>
+	<include file="$(find ros_astra_camera)/launch/astra.launch" />
+	<node pkg="hrl_object_detection type="hrl_object_detection.py"
+	name="hrl_object_detection" output="screen"/>
+</launch>

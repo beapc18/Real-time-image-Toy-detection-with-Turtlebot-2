@@ -1,0 +1,4 @@
+Parametrize to be able to launch this module specifying:
+1. class_to_detect: platypus, unicorn, teddy_bear
+2. PATH_TO_LABELS: .pbtxt file
+3. model_dir: path to the inference graph directory

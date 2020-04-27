@@ -1,0 +1,5 @@
+python3 model_main.py --logtostderr --train_dir=training/ --pipeline_config_path=training/pipeline.config --model_dir=training/
+
+python3 -m tensorboard.main --logdir=PATH/TO/TRAINING/
+
+Si falla revisar protoc y export pythonpath (tutorial del autista)
