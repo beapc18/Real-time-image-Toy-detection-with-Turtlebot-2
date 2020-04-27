@@ -11,6 +11,10 @@ Three different neural networks have been trained, one for each of the selected 
 
 The robot used in this project is the [TurtleBot 2](https://www.turtlebot.com/turtlebot2/), equipped with two cameras, one located in the middle of the robot facing forward, and the other one located on top of the robot, which is tilted slightly downwards to face the ground in front of the robot. The mobile base has three bumpers to detect impacts.
 
+<p align="center">
+<img src="https://github.com/beapc18/MSC_HumanoidRoboticsLab/blob/master/images/frontview_components.png" width="30%">  
+</p>
+
 We developed two modules for our project, which interact as follows:
 <p align="center">
 <img src="https://github.com/beapc18/MSC_HumanoidRoboticsLab/blob/master/images/diagram_with_topics.png" width="80%">
