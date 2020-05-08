@@ -1,4 +1,4 @@
-# Toy Detection with Turtlebot 2.
+# Real-time image Toy detection with Turtlebot 2
 The **goal** of this project is to **detect a specific toy** among a small group of toys scattered around a room. The robot should observe its environment looking for the correct toy among the bunch, then move towards it correctly and, finally, signal that it has been found. The detection must be carried away by a **Convolutional Neural Network** trained with augmented training data.
 
 <p align="center">
