@@ -5,7 +5,6 @@ The **goal** of this project is to **detect a specific toy** among a small group
 <img src="https://github.com/beapc18/MSC_HumanoidRoboticsLab/blob/master/images/platypus.gif" width="80%">  
 </p>
 
-
 Three different neural networks have been trained, one for each of the selected toys, following the [Tensorflow Object Detection API Tutorial](https://pythonprogramming.net/introduction-use-tensorflow-object-detection-api-tutorial/) 
 
 <p align="center">
